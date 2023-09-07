@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ecommerceproject"
+version = "0.1.0"
+description = ""
+authors = ["MaryStudy98 <Maryo1@uvic.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.11.2"
+pytest = "^7.4.0"
+junit-xml = "^1.9"
+pytest-html = "^3.2.0"
+requests = "^2.31.0"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
